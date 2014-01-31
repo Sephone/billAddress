@@ -1,9 +1,9 @@
 billAddress
 ===========
 
-this will copy one address to another, like for billing and physical address
+This will copy one address to another, like for billing and physical address.
  
-it will stop once one of the second address fields is focused one optional you can have a copy button when that button is clicked, the fields are copied
+It will stop once one of the second address fields is focused on. Optional you can have a copy button when that button is clicked, the fields are copied.
  
     $("#ClientExpressForm").billAddress({
       fields: {
@@ -15,11 +15,13 @@ it will stop once one of the second address fields is focused one optional you c
       copyButton: 'i.copyBillAddress'
     });
  
-fields is a list of inputs by their name, the first one is always copied to the second one.
+Fields is a list of inputs by their name, the first one is always copied to the second one.
  
-all fields are optional
-can be turned off by 
+All fields are optional.
+Can be turned off by 
+
     $("#ClientExpressForm").billAddress('destroy');
  
-can copy manually by 
+or copy manually by 
+
     $("#ClientExpressForm").billAddress('copyAddress');
