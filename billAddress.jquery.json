@@ -1,0 +1,32 @@
+{
+	"name": "billAddress",
+	"title": "jQuery Bill Address",
+	"keywords": [
+		"forms"
+	],
+	"version": "0.1",
+	"author": {
+		"name": "Sephone Interactive Media",
+		"url": "https://github.com/sephone/"
+	},
+	"maintainers": [
+		{
+			"name": "Alan Whitney",
+			"email": "alan.whitney@gmail.com",
+			"url": "http://alanblainewhitney.com"
+		}
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/sephone/billAddress/MIT-LICENSE.txt"
+		}
+	],
+	"bugs": "https://github.com/sephone/billAddress/issues",
+	"homepage": "https://github.com/sephone/billAddress/",
+	"docs": "https://github.com/sephone/billAddress/",
+	"download": "https://github.com/sephone/billAddress/",
+	"dependencies": {
+		"jquery": ">=1.5"
+	}
+}
