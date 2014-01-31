@@ -2,9 +2,9 @@
 	"name": "billAddress",
 	"title": "jQuery Bill Address",
 	"keywords": [
-		"forms"
+		"form"
 	],
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"author": {
 		"name": "Sephone Interactive Media",
 		"url": "https://github.com/sephone/"
