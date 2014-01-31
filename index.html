@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Normal Address and Billing Address test</title>
+	</head>
+	
+	<body>
+		<form action="#" method="post">
+			<h1>Street Address</h1>
+			<textarea name="address" placeholder="Address"></textarea><br>
+			<input name="city" placeholder="city">, <input name="state" placeholder="state">, <input name="zip" placeholder="zip">
+			<br><br>
+			<button class="copy" type="button">Copy Address</button>
+			<br><br>
+			<h1>Billing Address</h1>
+			<textarea name="bill_address" placeholder="address"></textarea><br>
+			<input name="bill_city" placeholder="city">, <input name="bill_state" placeholder="state">, <input name="bill_zip" placeholder="zip">
+		</form>
+
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="jquery.billAddress.js"></script>
+		<script>
+			$("form").billAddress({
+				fields: {
+					address: 'bill_address',
+					city: 'bill_city',
+					state: 'bill_state',
+					zip: 'bill_zip'
+				},
+				
+				copyButton: 'button.copy'
+			});
+		</script>
+	</body>
+</html>
