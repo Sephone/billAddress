@@ -5,15 +5,16 @@
 	"keywords": [
 		"form"
 	],
-	"version": "0.1.7",
+	"version": "0.1.8",
 	"author": {
 		"name": "Sephone Interactive Media",
+		"email": "support@sephone.com",
 		"url": "https://github.com/sephone/"
 	},
 	"maintainers": [
 		{
 			"name": "Alan Whitney",
-			"email": "alan.whitney@gmail.com",
+			"email": "alan@alanblainewhitney.com",
 			"url": "http://alanblainewhitney.com"
 		}
 	],
